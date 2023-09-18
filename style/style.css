@@ -7,27 +7,36 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: blueviolet;
+	background-color: rgb(43, 144, 226);
 }
-input[type="text"] {
-	width: 325px;
-	height: 45px;
+.container{
 	display: flex;
- justify-content: center;
- align-items: center;
-	margin-top:330px;
-	color: black;
-	font-weight: 500;
-	font-size: 20px;
-	font-family: "Poppins", sans-serif;
+	justify-content: center;
+	align-items: center;
+	gap: 45px;
+	margin-top: 100px;
 }
-.btn-primary {
-	margin-top: 330px;
-	margin-left: 30px;
-	font-weight: 400;
-	text-align: center;
-	width: 40px;
-	height: 40px;
+.counter{
+	width: 100px;
+	height: 45px;
+	border: 1px solid #ccc;
 }
-
-
+.step{
+	width: 100px;
+	height: 45px;
+	border: 1px solid #ccc;
+}
+.time{
+	width: 250px;
+	height: 45px;
+}
+.plus{
+	width: 100px;
+	height: 45px;
+	border: 1px solid #ccc;
+}
+.minus{
+	width: 100px;
+	height: 45px;
+	border: 1px solid #ccc;
+}
